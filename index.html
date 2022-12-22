@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Advice generator app</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Frontend Mentor | Advice generator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<main>
+    <div class="card">
+        <h2>Advice #<span id="advice-number">117</span></h2>
+        <h1>"It is easy to sit up and take notice, what's difficult is getting up and taking action."</h1>
+        <picture class="divider">
+            <source srcset="images/pattern-divider-desktop.svg" media="(min-width:600px)"/>
+            <img src="images/pattern-divider-mobile.svg" alt="divider"/>
+        </picture>
+        <img class="dice" src="images/icon-dice.svg" alt="dark blue dice with 5 pips"/>
+    </div>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
